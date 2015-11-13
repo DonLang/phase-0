@@ -37,6 +37,7 @@ rmdir - removes an empty directory
 rm - remove files and full directories (using -r)
 
 help - a command used to understand commands built into the shell (like the man command which i’m a bit more fond of)
+
 ## 1.4 Forking and Cloning
 Working with Git and Github…
 
