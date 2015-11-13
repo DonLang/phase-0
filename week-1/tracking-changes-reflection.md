@@ -15,15 +15,16 @@ The HEAD^ argument means the commit before the last commit, and is used to reset
 Working, staged and commit.  The working stage is where you work and develop your project.  When you’ve got a change that you feel good about adding then you use the git add command to add your changes. Then it has moved to the staged stage, if you use the git status command you can track it, and you can use the git reset HEAD command to return it to the working stage.  If you are sure you want to add it then you go to the commit stage using the git commit command using -m to add a brief commit message, or -v to add a larger explanation of what you’ve done.  Then poof… your change is in the commit stage ready for pull requests and being merged.  If you want to change the commit message you can use the git commit —amend message (I had quite a bit of trouble deciding what to say), or if you want to undo the commit you can use the git reset —soft HEAD^ command to undo it.
 
 ###Write a handy cheatsheet of the commands you need to commit your changes?
-short list
-git status - check the status of your commit
-git add - add things to staged stage
-git commit -m “message_here” -commit things that were staged
-optional list
-git reset HEAD - unstage things
-git commit —amend - fix commit message that I garbled
-git reset —soft HEAD^ - uncommit things that you just committed
-and I’m certain a ton more I just haven’t learned yet
+####short list
+-git status - check the status of your commit
+-git add - add things to staged stage
+-git commit -m “message_here” -commit things that were staged
+
+####optional list
+-git reset HEAD - unstage things
+-git commit —amend - fix commit message that I garbled
+-git reset —soft HEAD^ - uncommit things that you just committed
+-and I’m certain a ton more I just haven’t learned yet
 
 ###What is a pull request and how do you create and merge one?
 A pull request is a request for review before a change is made to a master repo.
