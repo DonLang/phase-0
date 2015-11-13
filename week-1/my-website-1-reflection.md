@@ -3,6 +3,7 @@ https://github.com/DonLang/DonLang.github.io
 
 ###Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 If you have a GitHub account open it, otherwise go to github.com and make one following their instructions.  After you’ve opened you account go to the + sign in the upper right hand corner (next to your avatar), and click it.  Then click on new repository.  Go down to the Repository name field and name your repository.  Make it public or private and add any licenses you might need.  Then click the Create repository button.  And now you have a repository on GitHub.
+
 One more step is necessary to get started on you repository, cloning it to you computer.  First click on the repository in your GitHub, and go to the lower right hand side to the field that says https copy that information.  Next go to your terminal program (you can find it in macs by using finder and typing terminal), and enter in the following command:  git clone the_https_info
 Replacing the_https_info with the https stuff you copied from GitHub.  And then you’ll have a copy of the repository on your computer.
 
