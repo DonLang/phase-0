@@ -16,15 +16,15 @@ Working, staged and commit.  The working stage is where you work and develop you
 
 ###Write a handy cheatsheet of the commands you need to commit your changes?
 ####short list
--git status - check the status of your commit
--git add - add things to staged stage
--git commit -m “message_here” -commit things that were staged
+- git status - check the status of your commit
+- git add - add things to staged stage
+- git commit -m “message_here” -commit things that were staged
 
 ####optional list
--git reset HEAD - unstage things
--git commit —amend - fix commit message that I garbled
--git reset —soft HEAD^ - uncommit things that you just committed
--and I’m certain a ton more I just haven’t learned yet
+- git reset HEAD - unstage things
+- git commit —amend - fix commit message that I garbled
+- git reset —soft HEAD^ - uncommit things that you just committed
+- and I’m certain a ton more I just haven’t learned yet
 
 ###What is a pull request and how do you create and merge one?
 A pull request is a request for review before a change is made to a master repo.
