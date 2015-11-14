@@ -20,4 +20,4 @@ Licenses allow us to control the use of our software to some degree, have some p
 My interest in intellectual property law was even more solidified during this challenge, and I did greatly enjoy reading about different licensing options.  I’m still struggling a bit with being both clear and concise in these assignments.  I feel like I’m blathering on a bit.
 
 ###Did you find any resources on your own that helped you better understand a topic? If so, please list it.
-Not really.  Conversations with wonderful artists, developers, and lawyers have deepened my understanding of property law, but they might be too many to easily list.  Doing the html and css module on codecademy made the html easy to comprehend, but I don’t feel it was necessary.
+Not really.  Conversations with wonderful artists, developers, and lawyers have deepened my understanding of intellectual property law, but they might be too many to easily list.  Doing the html and css module on codecademy made the html easy to comprehend, but I don’t feel it was necessary.
