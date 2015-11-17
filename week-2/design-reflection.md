@@ -5,13 +5,13 @@
 Developing an understanding of the objective of the site, who is the intended audience,  what impact you wish to have upon the audience, and what content you plan on displaying.
 #####Planning -
 Creating a site map to show what information you’d like on the site, and how you’d like  your user to navigate it.
-####Design -
+#####Design -
 Getting a good idea of the colors, fonts, and overall appearance you want your customers to view.  It seems quite important to take into account your target audience during this time.
- ####Development -
+#####Development -
 The actually building of the site.  This is where you take the work that you did before in design and make it real using your HTML/CSS skills, and whatever other tools you need to make your users experience wonderful.
-####Testing/Delivery-
+#####Testing/Delivery-
 The fine tuning process where the you makes certain that all the code works, and that the product is useable by all of your intended audience.  Then you deliver the finished product using a FTP program, and make sure the site still runs after it has been set up.  This stage also includes Search Engine Optimization (SEO) to make certain your target audience can find this new thing you’ve built for them, by making it easier to locate in search engines.
-####Maintenance -
+#####Maintenance -
 Adding new content, and products to keep the site fresh, and engaging for your audience.  This allows you to help your target audience have access to the things you want to share with them.
 Also includes routine backups, updates, and other such things to make sure your site is able to reach the users you want it to.
 ###What is your site's primary goal or purpose?What kind of content will your site feature?
