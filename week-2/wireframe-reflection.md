@@ -1,1 +1,1 @@
-![wireframe-index](/imgs/wireframe-blog-index.PDF)
+![wireframe-index](imgs/wireframe-blog-index.PDF)
