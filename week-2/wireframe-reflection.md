@@ -1,1 +1,1 @@
-![wireframe-index](phase-0/week-2/imgs/wireframe-blog-index.pdf)
+![wireframe-index](/week-2/imgs/wireframe-blog-index.PDF)
