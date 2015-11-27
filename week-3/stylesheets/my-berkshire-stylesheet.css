@@ -9,19 +9,25 @@ a:visited {
     color: #FF0000;
 }
 #left {
+    margin-left: 3%;
     float:left;
     width: 50%;
-    margin-right: 3%;
+
 }
 .small {
+    display:block;
     font-size: .75em
 }
 header {
+
     text-align: center;
     font-weight:bold;
     border-bottom: 1px solid black;
 }
-section {
+#right {
+    float:right;
+    width:47%;
+    clear:none;
 }
 .first_letter {
     font-size: 1.5em;
@@ -37,14 +43,18 @@ section {
 #header_3 {
     display:block;
     text-align:center;
+    margin-bottom: 2%;
 }
-#cheat {
-    display:block;
+li {
+    margin-bottom: 2%;
 }
 #logo {
+    margin-top: 2%;
     display:block;
 }
 footer {
+    margin-top:2%;
+    margin-bottom: 2%;
     font-size: .8em;
     border-top:1px solid black;
     text-align:center;
@@ -57,11 +67,13 @@ footer {
     display:block;
 font-size: 1em;
 text-align: left;
+margin-bottom: 2%;
 }
 #footer_end2 {
     display:block;
     font-size: .5em;
     text-align: left;
+    margin-bottom: 2%;
 
 }
 main {
