@@ -12,7 +12,7 @@
 DevTools allows you to play with details in your formatting, and view them as they are implemented without altering the base code.  Which was quite a bit of fun.
 
 #####How can you resize elements on the DOM using CSS?
-By adjusting the height and width elements.
+The DOM forms a tree, nesting child elements and parent elements letting us control the way a html document is viewed.  CSS allows us to  impact the way these objects manifest in the DOM, and create changes in how the document is visually represented.  Or more simply by adjusting the properties of the element such as height and width.ng the height and width elements.
 #####What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
 Static is the default setting for position, things are stacked in the order in which they appear in the html. Then comes relative, where you move items around relative to where they would be normally in the code using  top, bottom, left, or right. Then come the two that amuse me the most.
 
