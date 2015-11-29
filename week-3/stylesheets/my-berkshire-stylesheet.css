@@ -79,3 +79,15 @@ margin-bottom: 2%;
 main {
     padding-bottom:10px;
 }
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+The file's location, its relationship, and type.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+I changed margins to get things to fit well, I used float to separate the left and right side, I used clear to keep the right side from bleeding into the footer, I used display block to break things up a bit, and a few other small things.
+What CSS did you use to modify the element style (like size, color, etc.)
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+I did use classes and ids.  Classes were for when multiple elements used a formatting style and ids were for when only one element needed a formatting style.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+Comically enough mine has cleaner code and follows best practices.  The original has all the formatting in the html, and no css (which makes it a bit difficult to read).  It also uses no semantic elements to divide sections.  Hmmm...wonder if they need a redesigned site, and how many bootcampers have tried to sell them on their version.
+*/
