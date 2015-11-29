@@ -1,5 +1,12 @@
-
 ![img1](../imgs/3-4-exercise-3-1.png)
+![img2](../imgs/3-4-exercise-3-2.png)
+![img3](../imgs/3-4-exercise-3-3.png)
+![img4](../imgs/3-4-exercise-3-4.png)
+![img5](../imgs/3-4-exercise-3-5.png)
+![img6](../imgs/3-4-exercise-3-6.png)
+![img7](../imgs/3-4-exercise-3-7.png)
+![img8](../imgs/3-4-exercise-3-8.png)
+![img9](../imgs/3-4-exercise-3-9.png)
 #####How can you use Chrome's DevTools inspector to help you format or position elements?
 
 DevTools allows you to play with details in your formatting, and view them as they are implemented without altering the base code.  Which was quite a bit of fun.
