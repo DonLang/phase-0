@@ -1,5 +1,5 @@
 
-![img1](https: ../imgs/3-4-exercise-3-1.png)
+![img1](https: /../imgs/3-4-exercise-3-1.png)
 #####How can you use Chrome's DevTools inspector to help you format or position elements?
 
 DevTools allows you to play with details in your formatting, and view them as they are implemented without altering the base code.  Which was quite a bit of fun.
