@@ -1,3 +1,39 @@
-body {
+header {
+    background-color:antiquewhite;
+    font-family: arial;
+    margin-top:-10px;
+    width:100%;
+    border:1px solid black;
+    position: fixed;
+}
 
+header > h1 {
+    margin: 5%;
+    text-align: center;
+}
+
+a:hover {
+    font-size:130%;
+    color: red;
+}
+
+h2 {
+    color: blue;
+    font-family: cursive;
+}
+
+.column-1 {
+    float:left;
+    width:49%;
+    margin-top: 30%;
+}
+.column-2 {
+    float:right;
+    width:49%;
+    margin-top: 30%;
+}
+footer {
+    width:100%;
+    clear:both;
+    border: 1px solid black;
 }
