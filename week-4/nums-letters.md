@@ -4,7 +4,7 @@ It prints to the console on a new line, but returns nil.
 An integer is a number with no decimal point, and a float is a number with decimal point.
 #####What is the difference between float and integer division? How would you explain the difference to someone who doesn't know anything about programming?
 Float division allows for fractional remnants, and integer division rounds down to the nearest whole number.  I’d probably use the same commerce driven example most people use something like... If you have 23 dollars and want to buy drinks at 5 dollars a drink then you have enough for 4 drinks, not 4.6 drinks.
-‘’’ruby
+'''ruby
 #PSEUDOCODE
 #Create a variable for the number of days in a year (average)
 days = 365.25
@@ -20,7 +20,7 @@ minutes = 60
 minutes_in_a_year = hours_in_a_year + years + minutes
 #Print out the minutes in a decade and hours in a year
 puts minutes_in_a_decade
-puts hours_in_a_year ‘’'
+'''
 
 
 #####How does Ruby handle addition, subtraction, multiplication, and division of numbers?
@@ -42,5 +42,7 @@ Strings are groups of letters, digits, punctuation, symbols, and spaces.  They a
 It was fun.  A good review of the basics without any real problems.
 
 [basic math](basic-math.rb)
+
 [simple string](simple-string.rb)
+
 [defining variables](defining-variables.rb)
