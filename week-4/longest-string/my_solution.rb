@@ -13,5 +13,20 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
+  #Your Solution Below
+
   # Your code goes here!
+  #Make a variable for longest string
+  long=nil
+  #iterate through the array
+  list_of_words.each do |word|
+    long ||= word
+    #Compare word length to long string length
+    if long.length < word.length
+      #change long to word if it is longer
+      long = word
+    end
+  end
+  #output the longest word
+  return long
 end
