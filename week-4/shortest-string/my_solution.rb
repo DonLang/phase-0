@@ -13,4 +13,17 @@
 #Your Solution Below
 def shortest_string(list_of_words)
   # Your code goes here!
+  #Make a variable for shortest string
+  short=nil
+  #iterate through the array
+  list_of_words.each do |word|
+    short ||= word
+    #Compare word length to short string length
+    if short.length > word.length
+      #change short to word if it is shorter
+      short = word
+    end
+  end
+  #Output short
+  return short
 end
