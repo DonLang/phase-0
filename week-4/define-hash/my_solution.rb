@@ -7,8 +7,8 @@
 
 # my_info is empty to start.  Edit this!
 my_info = {:first_name => "Donald",
-:last_name => "Lang", :hometown => "Georgetown", :age => 35}
- print "#{my_info[:first_name]} #{my_info[:last_name]} formerly lived in #{my_info[:hometown]}, and is #{my_info[:age].to_s} years old."
+  :last_name => "Lang", :hometown => "Georgetown", :age => 35}
+  print "#{my_info[:first_name]} #{my_info[:last_name]} formerly lived in #{my_info[:hometown]}, and is #{my_info[:age].to_s} years old."
 
 
 
