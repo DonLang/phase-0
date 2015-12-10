@@ -6,27 +6,32 @@
 
 # 0. Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input:A variable called sides
+# Output:number of sides or a random number between 1 and sides
+# Steps: make a class Die with the characteristic of sides
+#make the sides greater than 1 have an error if it isn't
+#Make a method that returns sides if called
+#Make a method that generates a random number between 1 and sides when called.
+
 
 
 # 1. Initial Solution
 
 class Die
   def initialize(sides)
-    # code goes here
+      @sides =sides
+       raise ArgumentError.new, "ArgumentError" if @sides < 1
   end
 
   def sides
-    # code goes here
+    return @sides
   end
 
   def roll
-    # code goes here
+    return rand(1..@sides)
   end
-end
 
+end
 
 
 # 3. Refactored Solution
@@ -38,3 +43,10 @@ end
 
 
 # 4. Reflection
+# What is an ArgumentError and why would you use one?
+# What new Ruby methods did you implement? What challenges and successes did you have in implementing them?
+#I got to play with rand which seems like it could be useful.
+# What is a Ruby class?
+# Why would you use a Ruby class?
+# What is the difference between a local variable and an instance variable?
+# Where can an instance variable be used?
