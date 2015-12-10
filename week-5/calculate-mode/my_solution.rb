@@ -64,11 +64,11 @@ def mode(array)
 
   array.each {|item| array_items[item] += 1}
 
-  max = array_items.max_by{|k,v| v}[1]
+  max_value = array_items.max_by{|k,v| v}[1]
   return_array = []
 
   array_items.each do |item, quantity|
-    if quantity == max
+    if quantity == max_value
       return_array << item
     end
 
