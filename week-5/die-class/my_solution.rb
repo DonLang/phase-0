@@ -37,16 +37,18 @@ end
 # 3. Refactored Solution
 
 
-
+#I'm pretty happy with the original solution, and don't see a need to refactor really.
 
 
 
 
 # 4. Reflection
 # What is an ArgumentError and why would you use one?
+#An ArgumntError is a error message that is raised when there isn't a more specific Error message to raise, and you could use one to indicate input is wrong or undesireable.
 # What new Ruby methods did you implement? What challenges and successes did you have in implementing them?
 #I got to play with rand which seems like it could be useful.
 # What is a Ruby class?
+
 # Why would you use a Ruby class?
 # What is the difference between a local variable and an instance variable?
 # Where can an instance variable be used?
