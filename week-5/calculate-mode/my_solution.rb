@@ -1,8 +1,8 @@
 # Calculate the mode Pairing Challenge
 
-# I worked on this challenge [by myself, with: ]
+# I worked on this challenge [by  with:Karen Ball ]
 
-# I spent [] hours on this challenge.
+# I spent [2] hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -65,17 +65,16 @@ def mode(array)
   array.each {|item| array_items[item] += 1}
 
   max = array_items.max_by{|k,v| v}[1]
-  array_items.sort_by{|k,v| v}
   return_array = []
 
-  array_items.each do |i, q|
-    if q == max
-      return_array << i
+  array_items.each do |item, quantity|
+    if quantity == max
+      return_array << item
     end
 
   end
 
-  return return_array.sort
+  return return_array
 end
 
 # 4. Reflection
@@ -87,4 +86,4 @@ end
 # What issues/successes did you run into when translating your pseudocode to code?
 # Our order of operations was a bit wonky on the pseudocode, but we figured it out fine.
 # What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
-#We mostly used .each to iterate. We also used sort_by and max_by which were useful in converting the hash back to a sortable array.
+#We mostly used .each to iterate. We also used max_by which was useful in converting the hash back to an array.
