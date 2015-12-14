@@ -69,3 +69,15 @@ end
 
 
 # 4. Reflection
+# Were you successful in breaking the problem down into small steps?
+#Yeah that worked wonderfully
+# Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+#We had some difficulties figuring out what non-destructive code required of us, but as soon as we got it it worked well.
+# Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+#Our first solution passed the destructive tests, but we had to fiddle with it a bit to get the nondestructive part right.
+# When you refactored, did you find any existing methods in Ruby to clean up your code?
+#Oh yes .fill was perfect!
+# How readable is your solution? Did you and your pair choose descriptive variable names?
+#I hope so.  We tried.
+# What is the difference between destructive and non-destructive methods in your own words?
+#Destructive methods transform the original data, and non-destructive methods create data that doesn't alter the original info.

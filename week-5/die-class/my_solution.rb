@@ -48,7 +48,10 @@ end
 # What new Ruby methods did you implement? What challenges and successes did you have in implementing them?
 #I got to play with rand which seems like it could be useful.
 # What is a Ruby class?
-
+# A class is a template from which individual objects are created
 # Why would you use a Ruby class?
+#When the preexisting classes won't do, and you have a new object type that you would like to behave in a particular fashion.
 # What is the difference between a local variable and an instance variable?
+#Instance variables define the state of an object in a class, and exist within that instance of the class.  Local variables exist solely within a method.  As classes are things and methods do things they are pretty different but they both exist within their limited zone.
 # Where can an instance variable be used?
+#It can be used within the that particular instance of a class.  It describes a characteristic of the object that you've designed.
