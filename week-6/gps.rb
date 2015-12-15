@@ -1,8 +1,8 @@
 #Your Names
 # 1)Donald Lang
-# 2)
+# 2)Karen Ball
 
-# We spent [#] hours on this challenge.
+# We spent [2] hours on this challenge.
 
 # Bakery Serving Size portion calculator.
 
@@ -29,7 +29,7 @@ def serving_size_calc(item_to_make, num_of_ingredients)
 
 
   # if error counter > 0, creates arg error to say not a valid input
-  unless library.include?(item_to_make) # Run the code! :-)
+  unless library.include?(item_to_make)
     raise ArgumentError.new("#{item_to_make} is not a valid input")
   end
 
@@ -67,9 +67,7 @@ def serving_size_calc(item_to_make, num_of_ingredients)
   else
     return "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make}, you have #{remaining_ingredients} leftover ingredients. Suggested baking items: #{leftovers}"
   end
-    #identify remaining ingredients
-    # determine the highest value of pastry that we can make
-    #make new hash
+
 
 end
 
@@ -82,3 +80,11 @@ p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
+# What did you learn about making code readable by working on this challenge?
+#I learned that I don't always know what makes code readable, and still need some work on refactoring.
+# Did you learn any new methods? What did you learn about them?
+#Didn't learn any new methods, but did
+# What did you learn about accessing data in hashes?
+#If you call each on a hash without a |key,value| it returns an array [key, value] which was interesting.
+# What concepts were solidified when working through this challenge?
+#That I want to work on getting less nervous when pairing, and like having a slow mellow pace.  Also that I would like to study hash methods more.
