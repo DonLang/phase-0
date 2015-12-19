@@ -1,18 +1,22 @@
 #Attr Methods
 
-# I worked on this challenge [by myself, with:]
+# I worked on this challenge [by myself]
 
-# I spent [#] hours on this challenge.
+# I spent [2] hours on this challenge (almost exclusively due to a spelling error).
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input:I'm designing two new classes so I guess the input would be the initial variable name.
+# Output:A greeting with my name
+# Steps: Build a Namedata object type
+#Build a Greeting object type
+#Design a Method in Greeting called hello
+#have it put out the name in NameData
+#Profit
 
 class NameData
-  attr_accessor :name
-  def inital
+  attr_reader :name
+  def initialize
     @name = "Don"
   end
 
@@ -20,14 +24,14 @@ end
 
 
 class Greetings
-attr_accessor :name
 
-def initalize
-@cat = NameData.new
-@name = @cat.name
+
+def initialize
+@greet = NameData.new
+
 end
 def hello
-  puts "Hello, #{@name}!"
+  p "Hello, #{@greet.name}!"
 end
 
 end
@@ -58,3 +62,13 @@ hi.hello
 # Yes it is simpler
 #part 4
 #
+#What is a reader method?
+#A method that allows you to read(as output) a class variable
+# What is a writer method?
+#A method that allows you to write(change) a class variable
+# What do the attr methods do for you?
+#They allow you to modify a particular instance of a Class by changing designated variables.
+# Should you always use an accessor to cover your bases? Why or why not?
+#Nope.  Sometimes you will want to give others access to class variables via the read, but not let them change the variable.
+# What is confusing to you about these methods?
+# I don't really know, most of the problems that i've had have involved leaving an i out of initialize.
