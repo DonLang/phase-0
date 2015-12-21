@@ -79,5 +79,6 @@ end
 # What was the most difficult part of this challenge for you and your pair?
 # Getting started on Pseudocode and small typing errors. For the most part we went quite quickly.
 # What new methods did you find to help you when you refactored?
+# Still working on refactoring well.
 # What concepts or learnings were you able to solidify in this challenge?
 #I solidified my understanding of the syntax of error messages.
