@@ -15,7 +15,20 @@ var terah = {
 }
 // __________________________________________
 // Write your code below.
-adam {name: "Adam"}
+var adam = {name: "Adam"};
+terah.spouse = adam;
+terah.weight = 125,
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = {}
+var carson= {name: "Carson"};
+var carter= {name: "Carter"};
+var colton= {name: "Colton"};
+terah.children.carson = carson;
+terah.children.carter = carter;
+terah.children.colton = colton;
+adam.children = terah.children;
+
 
 
 
@@ -29,8 +42,12 @@ adam {name: "Adam"}
 // __________________________________________
 // Reflection: Use the reflection guidelines
 //
-//
-//
+// //What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+// I had a little trouble with the children.  I wanted to add them all at once, and couldn't quite figure out how to do it.  So I added them individually.
+// How difficult was it to add and delete properties outside of the object itself?
+//Quite easy.
+// What did you learn about manipulating objects in this challenge?
+//That javaScript is quite similar to the other languages that I've learned with regard to manipulating objects.
 //
 //
 //
