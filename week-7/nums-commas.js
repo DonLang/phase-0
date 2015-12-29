@@ -87,3 +87,11 @@ assert(
  "3. "
 )
 
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+// It was simple when broken down into small steps, but I found fewer built in methods to play with.
+// What did you learn about iterating over arrays in JavaScript?
+// It is quite similar to iterating over arrays in Ruby, with the differences mostly being in syntax.
+// What was different about solving this problem in JavaScript?
+// Mostly just the language barriers, it was pretty easy after we learned how to phrase things.
+// What built-in methods did you find to incorporate in your refactored solution?
+// Nothing too fancy just slice and length.  Slice to break apart the string, and length see how many iterations we should do.

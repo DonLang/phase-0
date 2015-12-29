@@ -4,9 +4,9 @@
 
 // Your mission description:
 // Overall mission:
-// Goals:
-// Characters:
-// Objects:
+// Goals: Keep functioning in a broken world
+// Characters:Robot
+// Objects: Fusion core, Spare parts
 // Functions:
 
 // Pseudocode
