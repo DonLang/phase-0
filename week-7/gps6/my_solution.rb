@@ -4,7 +4,7 @@
 # We spent [1] hours on this challenge.
 
 # EXPLANATION OF require_relative
-#require_relative asks file relative to the path of the file
+#require_relative asks file relative to the location of the file
 #require goes through the Load_path to find the file
 
 #
@@ -22,12 +22,13 @@ class VirusPredictor
 
   def virus_effects
      # summarizes the number of deaths and speed of spread
+     #call the two private methods in public space
     predicted_deaths
     speed_of_spread
   end
 
   private
-    # methods for the coder's views only, not for the public to access outside the class
+    # methods for the coder's access only, not for the public to access outside the class.  Methods below this can be called within the class but not outside of it.
 
   def predicted_deaths
     # predicts the deaths of each state based on their population density
@@ -77,8 +78,8 @@ end
 # DRIVER CODE
  # initialize VirusPredictor for each state
 STATE_DATA.each do |state_name, state_data|
-  $x= VirusPredictor.new(state_name,state_data[:population_density],state_data[:population])
-  $x.virus_effects
+  x= VirusPredictor.new(state_name,state_data[:population_density],state_data[:population])
+  x.virus_effects
 end
 
 # alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
@@ -96,4 +97,13 @@ end
 
 #=======================================================================
 # Reflection Section
-#to be added soon
+# What are the differences between the two different hash syntaxes shown in the state_data file?
+# The first uses a string as the key and => to indicate the value. The second uses symbols as the key and puts the : at the end to indicate the next element is the value.
+# What does require_relative do? How is it different from require?
+#   require_relative allows you access to a file, and indicates where it's location is relative to where your file is (in this example state_data is in the same directory so is pretty easy to find).  require allows you to access a file, and searches for the file in your $LOAD_PATH.  Using this would require you to put the file you want to access into the directories searched in your $LOAD_PATH or to add the directories to the $LOAD_PATH.
+# What are some ways to iterate through a hash?
+# You can use .each, .map, you could build a for loup, a while loop, use built in methods, or many other ways.
+# When refactoring virus_effects, what stood out to you about the variables, if anything?
+# They weren't really neccessary as parameters since they were available as instance variables.
+# What concept did you most solidify in this challenge?
+# My understanding of $LOAD_PATH, and refactoring to reduce methods isn't always the best policy.
