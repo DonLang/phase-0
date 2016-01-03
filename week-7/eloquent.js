@@ -44,5 +44,3 @@ var me = { name: "Donald",
   quirk: "I'm more likely to cuddle, or grab a blanket than turn up the heat."};
   console.log(me["quirk"]);
   console.log(me.food);
-cat = [1,2,3,4,5,77,99]
-console.log(cat.max)
