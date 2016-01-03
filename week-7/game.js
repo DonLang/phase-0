@@ -6,13 +6,25 @@
 // Overall mission:Get a cat companion to ward off a grue attack
 // Goals: Keep the cat; Not get eaten
 // Characters:Player
-// Objects:Player(alive), cat(nervous, content, happy)
+// Objects:Player(alive,), cat(nervous, content, happy)
 // Functions:initial_encounter, pets, belly_trap, run
 
 // Pseudocode
 //Setup a 'player' object with cat_companion, health, edibility
 //Setup a 'cat' object with nevous, petable,
-//
+//you meet a cat what do you do introduce yourself, try to pet it, run away.
+//intro continue
+//pet it scratch and die
+//run away “you run off in the darkness and are likely eaten by a grue.
+
+//second prompt “The cat gently brushes against your leg what do you do.(pet, run away)
+//-pet continue
+//-run “eaten by grue"
+
+//third prompt “The cat rolls over on it’s back exposing its soft belly.” what do you do. continue petting, pet the belly, run
+//-pet ‘having earned its trust the cat joins you.  you are likely protected from grues.
+//-belly ‘cat scratches you, you get infected die.
+//-run ‘eaten by grue'
 //
 //
 /*
@@ -216,6 +228,7 @@ function petting() {
 
       cat["human_companion"] = true;
       player["cat_companion"] = true;
+      player["edibility"]= false;
       return;
     }
     else if (response === 'run'){
