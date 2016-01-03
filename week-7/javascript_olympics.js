@@ -1,6 +1,6 @@
 /// JavaScript Olympics
 
-// I paired [by myself, with:] on this challenge.
+// I paired [ with:Devin Mandelbaum] on this challenge.
 
 // This challenge took me [#] hours.
 
@@ -70,3 +70,11 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 
 // Reflection
+/*
+What JavaScript knowledge did you solidify in this challenge?
+I learned about constructor functions, the importance of correct syntax, and a little about built in functions in JavaScript.
+What are constructor functions?
+They are fuctions that make objects that contain certain characteristics, a bit similar to clasess in Ruby.
+How are constructors different from Ruby classes (in your research)?
+They use this.variable to designate property values, Ruby uses @ to designate instance variables.  Ruby classes objects also inherit a lot of methods just by by merrit of being part of a class, and objects created by JavaScript constructors are treated as ordinary objects that only have those additional methods directly assigned to them.  More of a Meta-object than a class of object. Plus quite a few nuances that this person (http://raganwald.com/2014/01/19/prototypes-are-not-classes.html) describes that I'm still trying to grasp.
+*/
