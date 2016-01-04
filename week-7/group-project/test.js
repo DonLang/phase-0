@@ -1,5 +1,28 @@
 // Add the finished solution here when you receive it.
 // __________________________________________
+function sum(array) {
+  var indexes = array.length;
+  var sum = 0
+  for (var number = 0; number < indexes; number ++)
+    sum += array[number];
+  return sum
+}
+
+function mean(array) {
+  var mean = (sum(array))/(array.length)
+  return mean
+}
+
+function median(array) {
+  array.sort( function(a,b) {return a - b;} );
+  var half = Math.floor(array.length/2);
+  if ((array.length % 2) != 0)
+    return (array[half-1] + array[half]) / 2.0;
+  else
+    return array[half]
+}
+
+
 // Tests:  Do not alter code below this line.
 
 
@@ -60,7 +83,6 @@ assert(
   "median should be a Function.",
   "7. "
 )
-
 assert(
   median(oddLengthArray) === 4,
   "median should return the median value of all elements in an array with an odd length.",
