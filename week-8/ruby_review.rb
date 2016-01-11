@@ -34,7 +34,7 @@ def remove_item(item = @contents.pop)
 end
 
 
-def dump  # what should this method return?
+def dump  # what should this method return? An empty drawer.
   puts "Your drawer is empty."
   @contents = []
 end
@@ -63,6 +63,7 @@ end
 def clean_silverware
   return @clean = true
 end
+
 def clean
   return @clean
 end
@@ -102,7 +103,7 @@ silverware_drawer.view_contents
 spoon = Silverware.new ("spoon")
 silverware_drawer.add_item(spoon)
 raise Exception.new("You don't have a spoon to remove") unless silverware_drawer.contents.include?(spoon)
-silverware_drawer.remove_item(spoon) #What is happening when you run this the first time?
+silverware_drawer.remove_item(spoon) #What is happening when you run this the first time? The same thing that happened the second time, since I set the variable spoon as an instance of Silverware.
 spoon.eat
 puts spoon.clean #=> this should be false
 
@@ -112,8 +113,15 @@ silverware_drawer.add_item(Silverware.new("spoon"))
 silverware_drawer.add_item(knife1)
 silverware_drawer.add_item(Silverware.new("spoon"))
 silverware_drawer.remove_item(knife1)
-
+raise Exception.new("You'll cut yourself") if silverware_drawer.contents.include?(knife1)
 silverware_drawer.view_contents
 
 
 # Reflection
+
+# What concepts did you review or learn in this challenge?
+# Not much actually I learned a little bit more about testing, but this seemed a bit easy for the new concepts.
+# What is still confusing to you about Ruby?
+# Still working on learning all the built in methods, navigating docs to find new ones, and such.
+# What are you going to study to get more prepared for Phase 1?
+# Probably going to focus more on studying JavaScript because it seems more difficult for me to learn than new concepts in Ruby.

@@ -25,7 +25,7 @@ The person to outfit is the one to many relationship.
 They are for storing data in a manner that is easy to search, modify, amend, and analyze.
 #####What is a one-to-many relationship?
 It is a method of figuring out if data would be best served by separating out into more than one table.  By using the phrases "__x__ belongs to a __y__. __y__ has many __x__." you can analyze if an object has enough instances of its type to warrent having its own table.
-######What is a primary key? What is a foreign key? How can you determine which is which?
+#####What is a primary key? What is a foreign key? How can you determine which is which?
 A primary key and foreign key are two references on separate tables that are the same values.  The primary key would be the y in the previous example, and the foreign key would be the x.  They are used to access values on different tables that are related by the one-to-many relationship.
 #####How can you select information out of a SQL database? What are some general guidelines for that?
-You select info from a SQl database using queries. They start out with the SELECT column_name FROM table_name; format and get more complicated from there.
+You select info from a SQl database using queries. They start out with the SELECT column_name FROM table_name; format and get more complicated from there.  You can use WHEN and WHERE to narrow down the scope of the data you are getting.  You can use ORDER BY to arrange it by the values in a column in either ASC acending or DESC decending order.  You can even combine two tables using JOIN.
