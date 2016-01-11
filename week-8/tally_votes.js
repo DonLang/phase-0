@@ -171,9 +171,14 @@ officers[office] = maxName;
 
 // __________________________________________
 // Reflection
-
-
-
+/*
+What did you learn about iterating over nested objects in JavaScript?
+That it is not too dissimilar to iterating over nested hashes in ruby.
+Were you able to find useful methods to help you with this?
+I'm still having a bit of difficulty navigating the docs to find useful methods, but I'm trying.
+What concepts were solidified in the process of working through this challenge?
+Go for the easy route then refactor.  We only got stuck when we tried to skip too many steps.
+*/
 
 
 
