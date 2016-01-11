@@ -120,7 +120,7 @@ silverware_drawer.view_contents
 # Reflection
 
 # What concepts did you review or learn in this challenge?
-# Not much actually I learned a little bit more about testing, but this seemed a bit easy for the new concepts.
+# I learned a little bit more about testing, but this seemed a bit easy for the new concepts.
 # What is still confusing to you about Ruby?
 # Still working on learning all the built in methods, navigating docs to find new ones, and such.
 # What are you going to study to get more prepared for Phase 1?
