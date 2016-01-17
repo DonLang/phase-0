@@ -28,3 +28,4 @@ describe "super_fizzbuzz" do
     expect(super_fizzbuzz([15, 5, 3, 1])).to eq ['FizzBuzz', 'Buzz', 'Fizz', 1]
   end
 end
+

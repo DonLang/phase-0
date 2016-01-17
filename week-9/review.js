@@ -26,10 +26,28 @@ input: the list
 steps: print the list and the quantities with in a neat and orderly fashion.
 output: The beautified list.*/
 
-var list = [];
+var list = {};
+list['groceries'] = {}
 
-def Grocery(item, quantity=1){
-this.item = item;
-this.quantity = quantity;
-}
+list.initial= function(items){
+  for (i in items){list.addItem(items[i], 1)}
+};
+
+list.addItem = function (item, quantity){
+  list['groceries'][item] = quantity};
+
+list.deleteItem = function(item){delete list['groceries'][item]};
+
+
+list.prettyPrint = function(){for (i in list.groceries){console.log(i + "--"+ list.groceries[i])} }
+
+
+list.initial(['apple', 'pear', 'egg', 'kombucha']);
+
+list.addItem ('bacon', 5);
+list.deleteItem('apple');
+
+list.prettyPrint()
+
+
 
