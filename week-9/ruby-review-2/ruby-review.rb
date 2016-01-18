@@ -133,3 +133,9 @@ my_playlist.display
 
 
 # Reflection
+# What concepts did you review in this challenge?
+# I reviewed classes and how to modify them.
+# What is still confusing to you about Ruby?
+# Pseudocode is still a bit confusing, but quite a bit of ruby is pretty clear.
+# What are you going to study to get more prepared for Phase 1?
+# JavaScript, jQuery, and reviewing how they work with websites.
