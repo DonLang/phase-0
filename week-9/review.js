@@ -3,7 +3,7 @@
 # steps:
 # create a method that take parameters of an array
   # set default quantity of 1
-  # print the list to the console [can you use one of your other methods here?]
+  # print the list to the console
 # output: a grocery list
 
 # Method to add an item to a list
@@ -49,5 +49,10 @@ list.deleteItem('apple');
 
 list.prettyPrint()
 
-
+// What concepts did you solidify in working on this challenge? (reviewing the passing of information, objects, constructors, etc.)
+// I solified my understanding of objects, and functions a bit.
+// What was the most difficult part of this challenge?
+//Not messing up punctuation mostly.  And pseudocoding. I ended up checking my old stuff to get it a bit more clear.
+// Did an array or object make more sense to use and why?
+//I went with an object.  It could contain the values and the objects with those values.  Seemed logical to me.
 
