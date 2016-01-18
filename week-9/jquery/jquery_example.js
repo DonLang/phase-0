@@ -61,5 +61,8 @@ $('img').animate({
 })  // end of the document.ready function: do not remove or write DOM manipulation below this.
 // Reflection
 // What is jQuery?
+// An easier way of applying JavaScript to your website.
 // What does jQuery do for you?
+// Makes it easy to select html objects and modify them.  It also allows you to manipulate the DOM as it interacts with your site.
 // What did you learn about the DOM while working on this challenge?
+// It showed me a tiny bit of the magic that you can use jQuery for when altering your site.  It was nice to learn that you have that much control over your site and how a browser interacts with it.
